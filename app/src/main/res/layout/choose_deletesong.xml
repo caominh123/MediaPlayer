@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Delete"
+        android:textColor="#000000"
+        android:textSize="26dp"
+        android:paddingTop="10dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:padding="10dp">
+        <RadioButton
+            android:id="@+id/radioDeleteDatabase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Database"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioDeleteDevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Device"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <Button
+            android:id="@+id/btnOKDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OK"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnCancleDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancle"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+</LinearLayout>

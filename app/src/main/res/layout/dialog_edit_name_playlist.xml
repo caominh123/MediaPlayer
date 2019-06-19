@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/textEdit"
+        android:padding="10dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Edit name playlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/textEdit"
+        android:id="@+id/edittextEditPlaylistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/buttonCancleEdit"
+        android:layout_marginLeft="100dp"
+        android:text="CANCLE"
+        android:layout_below="@id/edittextEditPlaylistName"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:id="@+id/buttonOkEdit"
+        android:text="OK"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/edittextEditPlaylistName"
+        android:layout_toRightOf="@id/buttonCancleEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"/>
+
+
+</RelativeLayout>
